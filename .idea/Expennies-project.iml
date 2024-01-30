@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/expennies/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/expennies/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/expennies/tests/Unit" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/friendsofphp/proxy-manager-lts" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/laminas/laminas-code" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/php-di/invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/php-di/phpdoc-reader" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/slim/twig-view" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/asset" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/intl" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/twig-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/symfony/webpack-encore-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/twig/intl-extra" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/expennies/vendor/vlucas/phpdotenv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
