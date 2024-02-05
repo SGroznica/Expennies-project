@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86df4be9-1b06-47ec-ab99-a3910303dbeb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/expennies/migrations/Version20221006233845.php" beforeDir="false" />
-    </list>
+    <list default="true" id="86df4be9-1b06-47ec-ab99-a3910303dbeb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,6 +122,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Programiranje/PHP/Expennies-project",
@@ -145,6 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706612693256</updated>
       <workItem from="1706612694264" duration="27000" />
+      <workItem from="1706613076753" duration="20000" />
     </task>
     <servers />
   </component>
