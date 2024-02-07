@@ -106,6 +106,7 @@
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/expennies/vendor/vlucas/valitron" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">

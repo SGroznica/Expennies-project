@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Middleware;
 
 use App\Exception\ValidationException;
@@ -19,11 +21,13 @@ class ValidationExceptionMiddleware implements MiddlewareInterface
         try {
             return $handler->handle($request);
         } catch (ValidationException $e) {
-            $respone = $this->responeFactory->createResponse();
-
+            $response = $this->responeFactory->createResponse();
             $referer = $request->getServerParams()['HTTP_REFERER'];
-
-            return $respone->withHeader('Location', $referer)->withStatus(302);
+            $oldData = $request->getParsedBody();
+            $sensitiveFields = ['password', 'confirmPassword'];
+            $_SESSION['errors'] = $e->errors;
+            $_SESSION['old'] = array_diff_key($oldData, array_flip($sensitiveFields));
+            return $response->withHeader('Location', $referer)->withStatus(302);
         }
     }
 }

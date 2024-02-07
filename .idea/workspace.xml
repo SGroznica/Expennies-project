@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86df4be9-1b06-47ec-ab99-a3910303dbeb" name="Changes" comment="" />
+    <list default="true" id="86df4be9-1b06-47ec-ab99-a3910303dbeb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Expennies-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Expennies-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Middleware/ValidationExceptionMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Middleware/ValidationExceptionMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/configs/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/configs/middleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/resources/views/auth/register.twig" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/resources/views/auth/register.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/config" />
@@ -113,9 +124,16 @@
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/expennies/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/expennies/vendor/vlucas/valitron" />
     </include_path>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2bfimTtzKUiBkEbG3V7uHV5D2fB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -125,7 +143,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Programiranje/PHP/Expennies-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -134,6 +160,13 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,10 +178,15 @@
       <updated>1706612693256</updated>
       <workItem from="1706612694264" duration="27000" />
       <workItem from="1706613076753" duration="20000" />
+      <workItem from="1707298995296" duration="4423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
