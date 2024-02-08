@@ -22,7 +22,10 @@ class StartSessionMiddleware implements MiddlewareInterface
         if(headers_sent($fileName, $line)){
             throw new SessionException('Headers already sent');
         }
-       session_start();
+
+        session_set_cookie_params(['secure'=> true, 'httponly'=> true, 'samesite'=>'lax']);
+
+        session_start();
         $response = $handler->handle($request);
 
         session_write_close();
