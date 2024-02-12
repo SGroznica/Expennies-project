@@ -1,9 +1,10 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace App\Entity;
 
+use App\Contracts\UserInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Event\LifecycleEventArgs;
@@ -19,7 +20,7 @@ use Doctrine\ORM\Mapping\Table;
 
 #[Entity, Table('users')]
 #[HasLifecycleCallbacks]
-class User
+class User implements UserInterface
 {
     #[Id, Column(options: ['unsigned' => true]), GeneratedValue]
     private int $id;
@@ -47,7 +48,7 @@ class User
 
     public function __construct()
     {
-        $this->categories = new ArrayCollection();
+        $this->categories   = new ArrayCollection();
         $this->transactions = new ArrayCollection();
     }
 
@@ -55,13 +56,14 @@ class User
     {
         return $this->id;
     }
+
     #[PrePersist, PreUpdate]
     public function updateTimestamps(LifecycleEventArgs $args): void
     {
-        if (!isset($this->createdAt)) {
-
+        if (! isset($this->createdAt)) {
             $this->createdAt = new \DateTime();
         }
+
         $this->updatedAt = new \DateTime();
     }
 
@@ -106,23 +108,9 @@ class User
         return $this->createdAt;
     }
 
-    public function setCreatedAt(\DateTime $createdAt): User
-    {
-        $this->createdAt = $createdAt;
-
-        return $this;
-    }
-
     public function getUpdatedAt(): \DateTime
     {
         return $this->updatedAt;
-    }
-
-    public function setUpdatedAt(\DateTime $updatedAt): User
-    {
-        $this->updatedAt = $updatedAt;
-
-        return $this;
     }
 
     public function getCategories(): ArrayCollection|Collection

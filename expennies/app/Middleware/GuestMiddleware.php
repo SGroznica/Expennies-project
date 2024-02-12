@@ -1,5 +1,6 @@
 <?php
-declare(strict_types=1);
+
+declare(strict_types = 1);
 
 namespace App\Middleware;
 
@@ -13,15 +14,14 @@ class GuestMiddleware implements MiddlewareInterface
 {
     public function __construct(private readonly ResponseFactoryInterface $responseFactory)
     {
-
     }
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-       if (! empty($_SESSION['user'])){
-           return $this->responseFactory->createResponse(302)->withHeader('Location', '/');
-       }
+        if (! empty($_SESSION['user'])) {
+            return $this->responseFactory->createResponse(302)->withHeader('Location', '/');
+        }
 
-       return $handler->handle($request);
+        return $handler->handle($request);
     }
 }
