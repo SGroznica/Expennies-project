@@ -80,14 +80,12 @@ return [
     UserProviderServiceInterface::class => fn(ContainerInterface $container) => $container->get(
         UserProviderService::class
     ),
-    SessionInterface::class=>fn(Config $config)=> new Session(
+    SessionInterface::class             => fn(Config $config) => new Session(
         new SessionConfig(
-          $config->get('session.name', ''),
-          $config->get('session.secure', true),
-          $config->get('session.httponly',true),
-          SameSite::from($config->get('session.samesite','lax'))
+            $config->get('session.name', ''),
+            $config->get('session.secure', true),
+            $config->get('session.httponly', true),
+            SameSite::from($config->get('session.samesite', 'lax'))
         )
-
     ),
-
 ];
