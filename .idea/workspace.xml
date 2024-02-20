@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df4be9-1b06-47ec-ab99-a3910303dbeb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Contracts/SessionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Contracts/SessionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/DataObjects/SessionConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/DataObjects/SessionConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Middleware/OldFormDataMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Middleware/OldFormDataMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Middleware/StartSessionsMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Middleware/StartSessionsMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Middleware/ValidationErrorsMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Middleware/ValidationErrorsMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Middleware/ValidationExceptionMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Middleware/ValidationExceptionMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/app/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/app/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/configs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/configs/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expennies/configs/container/container_bindings.php" beforeDir="false" afterPath="$PROJECT_DIR$/expennies/configs/container/container_bindings.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +192,7 @@
       <workItem from="1707909819505" duration="2409000" />
       <workItem from="1707998111499" duration="707000" />
       <workItem from="1708072634791" duration="510000" />
+      <workItem from="1708438145919" duration="618000" />
     </task>
     <servers />
   </component>
@@ -195,7 +204,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/expennies/app/Middleware/StartSessionsMiddleware.php</url>
-          <line>26</line>
+          <line>28</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
